@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  background-color: #f0f8ff; /* Light Sky Blue */
+}
+
+h4 {
+  color: #228b22; /* Forest Green */
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  color: #008080; /* Teal */
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #008080; /* Teal */
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: #ff69b4; /* Hot Pink */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(255, 105, 180, 0.1); /* Uçuk pembe gölge */
+  transition: background-color 0.3s ease, transform 0.2s ease-out;
+}
+
+button:hover {
+  background-color: #ff1493; /* Deep Pink */
+  transform: scale(1.05); /* Büyüme efekti */
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ff69b4; /* Hot Pink */
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:hover {
+  border: 1px solid #ff1493; /* Deep Pink */
+  box-shadow: 0 0 8px rgba(255, 105, 180, 0.3); /* Uçuk pembe gölge */
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #ff1493; /* Deep Pink */
+}
+
+/* Readonly input stil */
+input[readonly] {
+  background-color: #fff0f5; /* Lavender Blush */
+  border: none;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #008080; /* Teal */
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #228b22; /* Forest Green */
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f0f8ff; /* Light Sky Blue */
+}
